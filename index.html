@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vextech Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 2s ease-in;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-blue-900 to-black text-white font-sans flex flex-col min-h-screen">
+    <header class="text-center py-10 animate-fadeIn">
+        <h1 class="text-4xl font-bold text-cyan-400">VEXTECH SOLUTIONS</h1>
+        <p class="text-lg italic">Tech Solutions at Your Doorstep</p>
+        <p class="text-sm mt-2">"Remote and On-Site Service – We Come to You!"</p>
+    </header>
+    
+    <section class="container mx-auto p-6 flex-grow">
+        <h2 class="text-2xl font-semibold text-cyan-300 mb-4">Our Services</h2>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                <h3 class="text-xl font-semibold text-cyan-400">Computer Services</h3>
+                <ul class="mt-2 text-gray-300">
+                    <li>✔ Hardware Upgrades (RAM | SSD | CPU | GPU | Custom PC Builds)</li>
+                    <li>✔ Maintenance (Dust Removal | System Optimization | Virus/Malware Removal | Troubleshooting)</li>
+                    <li>✔ Software & Data (OS Reinstallation | Data Backup/Recovery | Network Setup)</li>
+                </ul>
+            </div>
+            
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                <h3 class="text-xl font-semibold text-cyan-400">Mobile Services</h3>
+                <ul class="mt-2 text-gray-300">
+                    <li>✔ Android Upgrades</li>
+                    <li>✔ Custom ROMs (Debloated OS | Rooting | Software Troubleshooting)</li>
+                </ul>
+            </div>
+            
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                <h3 class="text-xl font-semibold text-cyan-400">Data & Optimization</h3>
+                <ul class="mt-2 text-gray-300">
+                    <li>✔ Data Transfer | OS Updates | Performance Tweaks</li>
+                </ul>
+            </div>
+            
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                <h3 class="text-xl font-semibold text-cyan-400">Consultancy</h3>
+                <ul class="mt-2 text-gray-300">
+                    <li>✔ IT Business Solutions (Technology Purchases | Network Design | IT Business Intelligence)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center mt-10 p-4 bg-gray-900 animate-fadeIn w-full mt-auto">
+        <h3 class="text-xl font-semibold text-cyan-400">Contact Us</h3>
+        <p class="mt-2">📞 +254708508021</p>
+    </footer>
+</body>
+</html>
